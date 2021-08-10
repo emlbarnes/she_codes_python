@@ -56,4 +56,4 @@ for item, in groceries.items():
 
 for item, price in prices.items():
     total_cost = round(quantity[item] * price)
-    print(f"{item} @ ${price} = {total_cost}")
+    print(f"{item} @ ${price} = {total_cost}") 
